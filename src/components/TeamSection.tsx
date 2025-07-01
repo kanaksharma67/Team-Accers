@@ -34,7 +34,7 @@ const TeamSection: React.FC = () => {
      {
       name: "Rohit Sharma",
       role: "Full Stack Developer",
-      skills: ["Full Stack Development","Docker", "Python", " Development", "Gen Ai"],
+      skills: ["Full Stack Development","Docker", "Python Development", "Gen Ai"],
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RS.jpg-Ne2FpVxVmW8slsZGcRJTHkvFrv34QH.jpeg",
       github: "https://github.com/rohitsharma2610",
       linkedin: "https://www.linkedin.com/in/rohitsharmaji2694/",
