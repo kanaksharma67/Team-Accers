@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Github, Linkedin, Mail, Send } from 'lucide-react';
+import { Github, Linkedin, Mail, Send , Instagram} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -41,6 +41,7 @@ const ContactSection: React.FC = () => {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "#", color: "hover:text-gray-300" },
     { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-blue-400" },
+    {icon: Instagram, label: "Instagram", href: "#", color:"hover:text-blue-400"},
     { icon: Mail, label: "Email", href: "mailto:unseencare834@gmail.com", color: "hover:text-purple-400" }
   ];
 
