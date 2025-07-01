@@ -10,7 +10,7 @@ const TechStackSection: React.FC = () => {
         { name: "React", description: "Modern UI development" },
         { name: "TypeScript", description: "Type-safe JavaScript" },
         { name: "Tailwind CSS", description: "Utility-first styling" },
-        { name: "Three.js", description: "3D graphics and animations" }
+        { name: "Gsap", description: "3D graphics and animations" }
       ]
     },
     {

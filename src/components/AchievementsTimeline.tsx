@@ -4,7 +4,7 @@ import React from 'react';
 const AchievementsTimeline: React.FC = () => {
   const achievements = [
     {
-      year: "2024",
+      year: "2025",
       event: "HackArena",
       project: "UnseenCare",
       award: "1st Prize Winner",
@@ -13,16 +13,16 @@ const AchievementsTimeline: React.FC = () => {
       icon: "🏆"
     },
     {
-      year: "2024", 
+      year: "2025", 
       event: "HackHazards",
-      project: "StellarPay",
+      project: "Transcrypt",
       award: "1st Prize Winner",
       description: "Revolutionary offline-first blockchain payment system using Stellar network",
       color: "from-pink-500 to-pink-600",
       icon: "🥇"
     },
     {
-      year: "2024",
+      year: "2025",
       event: "Manipal Hackathon",
       project: "NeuroNest", 
       award: "1st Prize Winner",

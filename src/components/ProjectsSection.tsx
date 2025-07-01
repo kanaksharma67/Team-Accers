@@ -11,33 +11,33 @@ const ProjectsSection: React.FC = () => {
       subtitle: "AI-Powered Dementia Care Assistant",
       event: "Manipal Hackathon - 1st Prize",
       description: "Revolutionary AI system providing personalized care and monitoring for dementia patients, featuring real-time behavior analysis and caregiver alerts.",
-      techStack: ["Python", "TensorFlow", "React", "Node.js", "MongoDB"],
+      techStack: ["Python", "TensorFlow","Flask", "React", "Firebase"],
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/NEURONEST-org/PINKY",
+      demo: "https://devfolio.co/projects/neuronestdementia-care-companionapp-f620",
       features: ["Real-time monitoring", "AI behavior analysis", "Caregiver dashboard", "Emergency alerts"]
     },
     {
-      title: "StellarPay",
+      title: "Transcrypt",
       subtitle: "Offline-First Blockchain Transactions",
       event: "HackHazards - 1st Prize", 
-      description: "Innovative blockchain-based payment system that works seamlessly offline, ensuring financial accessibility in remote areas.",
+      description: "TransCrypt provides an innovative offline payment solution that enables users to securely make peer-to-peer payments, provide Custom Bill Splitting, On‑Chain Transparency, Offline Queue Management, Group Payment Workflows, Smart Contract Security",
       techStack: ["Stellar SDK", "Node.js", "React Native", "SQLite", "Blockchain"],
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/kanaksharma67/transccrypt",
+      demo: "https://devfolio.co/projects/transcrypt-9a31",
       features: ["Offline transactions", "Stellar blockchain", "Mobile-first design", "Sync when online"]
     },
     {
       title: "UnseenCare",
       subtitle: "AI + IoT Smart Health System",
       event: "HackArena - 1st Prize",
-      description: "Comprehensive health and hygiene monitoring system combining AI analysis with IoT sensors for proactive healthcare.",
+      description: "UnseenCare is a revolutionary healthcare application that leverages cutting-edge Artificial Intelligence and Blockchain Technology to provide comprehensive care solutions for individuals with neurological and speech-related conditions. Our platform ensures maximum data security while delivering personalized, intelligent healthcare assistance.",
       techStack: ["IoT", "Python", "Flask", "React", "Arduino", "ML"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
-      github: "#", 
-      demo: "#",
-      features: ["IoT sensor network", "AI health analysis", "Predictive alerts", "Real-time dashboard"]
+      github: "https://github.com/Sd2k3/unseencare-main", 
+      demo: "https://unseencare-main-121n.vercel.app/",
+      features: ["IoT sensor network","arduino", "AI health analysis", "Predictive alerts","blockchain", "Real-time dashboard"]
     }
   ];
 
@@ -47,7 +47,7 @@ const ProjectsSection: React.FC = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-gradient mb-4">
-            Our Winning Projects
+            Our Projects
           </h2>
           <p className="text-xl text-purple-300 max-w-3xl mx-auto">
             Three consecutive hackathon victories showcasing our expertise in AI, blockchain, and IoT

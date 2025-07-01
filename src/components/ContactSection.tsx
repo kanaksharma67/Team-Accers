@@ -41,7 +41,7 @@ const ContactSection: React.FC = () => {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "#", color: "hover:text-gray-300" },
     { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-blue-400" },
-    { icon: Mail, label: "Email", href: "mailto:team@accers.dev", color: "hover:text-purple-400" }
+    { icon: Mail, label: "Email", href: "mailto:unseencare834@gmail.com", color: "hover:text-purple-400" }
   ];
 
   return (
@@ -201,7 +201,7 @@ const ContactSection: React.FC = () => {
               
               <div className="mt-6 pt-6 border-t border-purple-500/30">
                 <p className="text-gray-400 text-sm">
-                  <strong className="text-purple-300">Email:</strong> team@accers.dev<br />
+                  <strong className="text-purple-300">Email:</strong> unseencare884@gmail.com<br />
                   <strong className="text-purple-300">Response time:</strong> Usually within 24 hours
                 </p>
               </div>

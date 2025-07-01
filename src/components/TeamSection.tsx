@@ -5,41 +5,43 @@ import { Github, Linkedin } from 'lucide-react';
 const TeamSection: React.FC = () => {
   const teamMembers = [
     {
-      name: "Rohit Sharma",
-      role: "Full Stack Developer & AI Specialist",
-      skills: ["React", "Node.js", "TensorFlow", "Python"],
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-      github: "#",
-      linkedin: "#",
-      description: "Leading AI innovations with expertise in machine learning and full-stack development."
-    },
-    {
-      name: "Kanak Sharma", 
-      role: "Blockchain Developer & Backend Architect",
-      skills: ["Stellar SDK", "Smart Contracts", "Node.js", "Database Design"],
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      github: "#",
-      linkedin: "#",
-      description: "Architecting secure blockchain solutions and scalable backend systems."
-    },
-    {
-      name: "Chirag Pandit",
-      role: "IoT Engineer & Hardware Specialist", 
-      skills: ["IoT", "Arduino", "Raspberry Pi", "Sensor Integration"],
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face",
-      github: "#",
-      linkedin: "#",
-      description: "Building smart IoT solutions that bridge the physical and digital worlds."
-    },
-    {
       name: "Swartajit Dey",
       role: "Frontend Developer & UX Designer",
       skills: ["React", "UI/UX", "Animation", "Design Systems"],
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face", 
-      github: "#",
-      linkedin: "#",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SD.jpg-O1lCcQG00MR7RIjcBorJN6BkbkiyXJ.jpeg", 
+      github: "https://github.com/Sd2k3",
+      linkedin: "https://www.linkedin.com/in/swarajit-dey-758b84222/",
       description: "Crafting beautiful user experiences with modern frontend technologies."
+    },
+   {
+      name: "Kanak Sharma", 
+      role: "Full Stack Developer and Ai/Ml enthusiast",
+      skills: ["Python", "Tenserflow", "Machine Learning", "Frontend UI"],
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/KS.jpg-UfSa7sDDzPc3xtiPSZI22yPnRdjxmh.jpeg",
+      github: "https://github.com/kanaksharma67",
+      linkedin: "https://www.linkedin.com/search/results/all/?keywords=kanak%20sharma%20&origin=GLOBAL_SEARCH_HEADER&sid=ks9",
+      description: "Architecting Full Stack Websites and predictions AI model using Machine learning and deep learning"
+    },
+    {
+      name: "Chirag Pandit",
+      role: "Full Stack Developer", 
+      skills: ["IoT", "Arduino", "Raspberry Pi", "Sensor Integration"],
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chirag%202.jpg-NUKy44Gj2b1gZkpTgUVL3AcXDvHuoS.jpeg",
+      github: "https://github.com/Chirag-pandit",
+      linkedin: "https://www.linkedin.com/in/chirag-pandit-672017317/",
+      description: "Building smart IoT solutions that bridge the physical and digital worlds."
+    },
+     {
+      name: "Rohit Sharma",
+      role: "Full Stack Developer & AI Specialist",
+      skills: ["React", "Node.js", "TensorFlow", "Python"],
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RS.jpg-Ne2FpVxVmW8slsZGcRJTHkvFrv34QH.jpeg",
+      github: "https://github.com/rohitsharma2610",
+      linkedin: "https://www.linkedin.com/in/rohitsharmaji2694/",
+      description: "Leading AI innovations with expertise in machine learning and full-stack development."
     }
+    
+    
   ];
 
   return (
@@ -123,7 +125,7 @@ const TeamSection: React.FC = () => {
           <h3 className="font-orbitron text-2xl font-bold text-gradient mb-8">Our Journey Together</h3>
           <div className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden border-4 border-purple-500/30 glow">
             <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop" 
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-06-30%20at%2009.42.38_19dcdf18.jpg-zF95KqHtq6ybs7OwhwqRfwN8gMwP4P.jpeg" 
               alt="Team Accers"
               className="w-full h-64 md:h-80 object-cover"
             />
