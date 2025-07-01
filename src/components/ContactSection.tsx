@@ -15,21 +15,44 @@ const ContactSection: React.FC = () => {
   });
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsLoading(true);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsLoading(true);
+  try {
+    const response = await fetch('https://submit-form.com/VZZH57mPG', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
 
-    // Simulate form submission
-    setTimeout(() => {
+    if (response.ok) {
       toast({
         title: "Message Sent!",
         description: "Thank you for reaching out. We'll get back to you soon!",
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
-      setIsLoading(false);
-    }, 1000);
-  };
+    } else {
+      toast({
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive",
+      });
+    }
+  } catch (error) {
+    toast({
+      title: "Network Error",
+      description: "Unable to send your message. Please check your internet connection.",
+      variant: "destructive",
+    });
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
