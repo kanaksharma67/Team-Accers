@@ -6,8 +6,8 @@ const TeamSection: React.FC = () => {
   const teamMembers = [
     {
       name: "Swartajit Dey",
-      role: "Frontend Developer & UX Designer",
-      skills: ["React", "UI/UX", "Animation", "Design Systems"],
+      role: "Ai/ML and BLockchain developer",
+      skills:["AI/Ml", "Blockchain", "IOT", "Gen AI", "Full Stack"],
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SD.jpg-O1lCcQG00MR7RIjcBorJN6BkbkiyXJ.jpeg", 
       github: "https://github.com/Sd2k3",
       linkedin: "https://www.linkedin.com/in/swarajit-dey-758b84222/",
@@ -25,7 +25,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Chirag Pandit",
       role: "Full Stack Developer", 
-      skills: ["IoT", "Arduino", "Raspberry Pi", "Sensor Integration"],
+      skills: ["FUll Stack ", "Flask", "Machine Learning", "Gen AI"],
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/chirag%202.jpg-NUKy44Gj2b1gZkpTgUVL3AcXDvHuoS.jpeg",
       github: "https://github.com/Chirag-pandit",
       linkedin: "https://www.linkedin.com/in/chirag-pandit-672017317/",
@@ -33,8 +33,8 @@ const TeamSection: React.FC = () => {
     },
      {
       name: "Rohit Sharma",
-      role: "Full Stack Developer & AI Specialist",
-      skills: ["React", "Node.js", "TensorFlow", "Python"],
+      role: "Full Stack Developer",
+      skills: ["Full Stack Development","Docker", "Python", " Development", "Gen Ai"],
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RS.jpg-Ne2FpVxVmW8slsZGcRJTHkvFrv34QH.jpeg",
       github: "https://github.com/rohitsharma2610",
       linkedin: "https://www.linkedin.com/in/rohitsharmaji2694/",
